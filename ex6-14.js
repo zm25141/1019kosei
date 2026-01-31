@@ -3,7 +3,7 @@ function changePhoto614() {
   const myImage = document.getElementById("myPhoto1");
   if (!myImage) return;
     // '56.jpg' の画像パス (フォルダ名 'Image' は大文字)
-    myImage.src = "images/awwHokBK_400x400.png";
+    myImage.src = "images/0_20140709155407.jpg";
   }
 
 function returnPhoto614() {
