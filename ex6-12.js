@@ -1,3 +1,7 @@
 function imgchange1(){
-  document.getElementByld('logo').src='./image/buldon.gif';
+  document.getElementById('logo').src = './image/download.jpg';
+}
+
+function imgReset1(){
+  document.getElementById('logo').src = './image/sushi_01.png';
 }
