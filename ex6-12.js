@@ -3,5 +3,5 @@ function imgchange1(){
 }
 
 function imgReset1(){
-  document.getElementById('logo').src = './image/sushi_01.png';
+  document.getElementById('logo').src = './image/nigirizushi_moriawase.png';
 }
