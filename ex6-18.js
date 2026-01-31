@@ -7,5 +7,5 @@ function changePhoto618() {
 
 function returnPhoto618() {
   document.getElementById("myPhoto2").src =
-    "image/WIN_20260128_21_29_27_Pro.jpg";
+    "images/WIN_20260131_22_19_43_Pro.jpg";
 }
