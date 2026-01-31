@@ -1,6 +1,6 @@
 function changePhoto618() {
   document.getElementById("myPhoto2").src =
-    "image/WIN_20260128_21_29_25_Pro.jpg";
+    "images/WIN_20260131_22_22_31_Pro.jpg";
 
   setTimeout(returnPhoto618, 3000);
 }
