@@ -4,19 +4,34 @@
  <meta charset="UTF-8">
  <title>Web開発の練習2025秋季</title>
 <link rel="stylesheet" href="mystyle.css">
- <script src="ex6-1.js"></script>
- <script src="ex6-2.js"></script>
- <script src="ex6-4.js"></script>
- <script src="ex6-5.js"></script>
- <script src="ex6-6.js"></script>
- <script src="ex6-7.js"></script>
- <script src="ex6-9.js"></script>
- <script src="ex6-10.js"></script>
- <script src="ex6-11.js"></script>
- <script src="ex6-12.js"></script>
- <script src="ex6-15.js"></script>
- <script src="ex6-16.js"></script>
- <script src="ex6-17.js"></script>
+<script src="ex6-1.js"></script>
+<script src="ex6-5.js"></script>
+<script src="ex6-6.js"></script>
+<script src="ex6-7.js"></script>
+<script src="ex6-9.js"></script>
+<script src="ex6-10.js"></script>
+<script src="ex6-11.js"></script>
+<script src="ex6-12.js"></script>
+<script src="ex6-14.js"></script>
+<script src="ex06-15.js"></script>
+<script src="ex6-16.js"></script>
+<script src="ex6-17.js"></script>
+<script src="ex6-18.js"></script>
+<script src="ex7-1.js"></script>
+<script src="ex7-2.js"></script>
+<script src="ex7-3.js"></script>
+<script src="ex7-4.js"></script>
+<script src="ex7-5.js"></script>
+<script src="ex7-6.js"></script>
+<script src="ex7-7.js"></script>
+<script src="ex7-8.js"></script>
+<script src="ex7-9.js"></script>
+<script src="ex7-10.js"></script>
+<script src="ex7-11.js"></script>
+</head>
+<body>
+ <!--文字の大きさの練習-->
+  
    <h1>練習問題2.4</h1>
   
   <table>
@@ -53,26 +68,25 @@
  <p class="sample2">セキュリティ対策は今後ますます重要になるでしょう。</p>
  <p class="sample3">セキュリティ対策は今後ますます重要になるでしょう。</p>
 
- <h1>練習問題6.2</h1>   
- <input type="button" value="ここをクリック" onclick="sayhello61();sayhello61();">
-  <h1>練習問題6.4</h1>
- <input type="button" value="ここをクリック" onclick="saygoodbye61();saygoodbye61();">
+ <h1>練習問題6.2</h1>
+ <input type="button" value="ここをクリック" onclick="sayhello61();">
+ <h1>練習問題6.4</h1>
+ <input type="button" value="ここをクリック" onclick="saygoodbye61();">
  <h1>練習問題6.5</h1>
- <input type="button" value="あいさつ" onclick="sayhello65();">
- <input type="button" value="太郎" onclick="taro65();">
- <input type="button" value="花子" onclick="hanako65();">
-  <h1>練習問題6.6</h1>
- <input type="button" value="あいさつ" onclick="sayhello66();">
- <input type="button" value="太郎" onclick="taro66();">
- <input type="button" value="花子" onclick="hanako66();">
- <h1>練習問題6.7</h1>
- <input type="button" value="あいさつ" onclick="sayhello67();">
- <input type="button" value="太郎" onclick="someone('太郎');">
+  <input type="button" value="あいさつ" onclick="sayhello65();">
+  <input type="button" value="太郎" onclick="taro65();">
+  <input type="button" value="花子" onclick="hanako65();">
+ <h1>練習問題6.6</h1>
+   <input type="button" value="あいさつ" onclick="sayhello66();">
+  <input type="button" value="太郎" onclick="taro66();">
+  <input type="button" value="花子" onclick="hanako66();">
+  <h1>練習問題6-7 引数の練習</h1>
+ <input type="button" value="あいさつ" onclick="sayhello67();"> 
+ <input type="button" value="太郎" onclick="someone('太郎');">  
  <input type="button" value="花子" onclick="someone('花子');">
  <input type="button" value="レイ" onclick="someone('レイ');">
  <input type="button" value="シンジ" onclick="someone('シンジ');">
  <input type="button" value="アスカ" onclick="someone('アスカ');">
- 
  <h1>練習問題6-9 JavaScriptによる変更の練習</h1>
  <input type="button" value="あいさつ" onclick="sayhello69();"> 
  <input type="button" value="太郎" onclick="taro69();">  
@@ -81,33 +95,174 @@
  <h1>練習問題6-10 InnerHTMLによる変更の練習</h1>
  <input type="button" value="画像変更" onclick="gazo610();">
  <p id="who610">
-  <img src="./image/sushi_01.png" alt="寿司" width="200">
+ <img src="./image/sushi_01.png" alt="寿司" width="200">
  </p>
- 
- <h1>練習問題6-11 JavaScriptによるページの変更</h1>
-  <div id="txt1">
-   <input type="button" value="テキストの変更" onclick="txtchange1();">
-   城西大学</div>
+ <h1>練習問題6-11 JavaScroptによるページの変更</h1>
+ <div id="txt1">
 
+  <input type="button" value="テキストの変更" onclick="txtchange1();">
+  城西大学
+ </div>
  <h1>練習問題6-12</h1>
+ <div style="display:flex; align-items:center; gap:12px;">
  <input type="button" value="画像の変更" onclick="imgchange1();">
- <img src='./image/josai.png' id="logo" alt="josai Logo">
- 
- <h1>練習問題6-15 タイマーによる表示</h1>
- <form name="timer">
-  <input type="button" value="スタート" onclick="startfnc()">
-  <br>
-  <input type="text" name="moji" size="30" value=""></form>
- <h1>練習問題6-16 タイマーによる表示</h1>
- <form><input type="button" value="Timer"
-        onclick="setTimeout('mes()',3000)">
- </form>
- <h1>練習問題6-17 ３秒経ったら元に戻す</h1>
-  <form name="timer17">
-   <input type="button" value="スタート"
-    onclick="hyoji17()">
-   <br>
-   <input type="text" name="moji17" size="30" value="">
-  </form>
- </body>
- </html>
+  <img src="./image/sushi_01.png" id="logo"  alt="寿司の画像" class="sushi">
+  <input type="button" value="元に戻す" onclick="imgReset1();">
+ </div>
+<h1>練習問題6-14</h1>
+  <!-- 表示する画像 -->
+  <img
+    id="myPhoto1"
+    src="image/WIN_20260128_21_45_54_Pro.jpg"
+    alt="写真"
+    width="300"
+  >
+
+  <br><br>
+
+  <!-- 画像を切り替えるボタン -->
+  <button onclick="changePhoto614()">画像を変更</button>
+  <button onclick="returnPhoto614()">元に戻す</button>
+<h1>練習問題6-15</h1>
+<form name="timer">
+<input type="button" value="スタート" onclick="startfnc()">
+<br>
+<input type="text" name="moji" size="30" value="">
+</form>
+<h1>練習問題6-16</h1>
+<input type="button" value="Timer"
+ onclick="startTimer()">
+<h1>練習問題6-17</h1>
+<form name="timer17">
+<input type="button" value="スタート" onclick="hyoji17()">
+ <br>
+ <input type="text" name="moji17" size="30" value="">
+</form>
+<h1>練習問題6-18</h1>
+  <!-- 画像をdivで囲む -->
+  <div id="photoArea">
+    <img id="myPhoto2" src="image/WIN_20260128_21_29_27_Pro.jpg"  alt="最初の写真" width="300">
+  </div>
+  <!-- ボタン -->
+  <button onclick="changePhoto618()">画像を切り替える</button>
+<h1>練習問題7-1</h1>
+ <input type="button" value="あいさつ" onclick="sayhello71();">
+ <p>誰？ <input type="text" id="who71">
+ </p>
+<h1>練習問題7-2　足し算</h1>
+ <p>
+  <input type="text" id ="input1">+<input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();">
+ </p>
+<h1>練習問題7-3</h1>
+<p>
+  身長（cm）：
+  <input type="number" id="height1">
+</p>
+<p>
+  体重（kg）：
+  <input type="number" id="weight1">
+</p>
+<button type="button" onclick="calcBMI()">計算する</button>
+
+<p id="result1">あなたのBMIは…です</p>
+
+<!-- 外部JavaScript -->
+<script src="ex7-3.js" defer></script>
+<h1>練習問題7-4　なぞなぞ</h1>
+ <p>目を閉じていないと見れないものはなーに？</p>
+ <p>
+  答（漢字1字で):<input type="text" id="answer74">
+  <input type="button" value="解答" onclick="nazo74();">
+ </p>
+<h1>練習問題7-5</h1>
+  <p>目を閉じていないと見れないものはなーに？</p>
+  <p>
+  答（漢字1字で):<input type="text" id="answer75">
+  <input type="button" value="解答" onclick="nazo75();">
+  <h1>練習問題7-6</h1>
+  <p>目を閉じていないと見れないものはなーに？</p>
+  <p>
+  答（漢字1字で):<input type="text" id="answer76">
+  <input type="button" value="解答" onclick="nazo76();">
+  </p>
+ <h1>練習問題7-7</h1>
+<p>
+ <input type="text" id="answer77">
+<input type="button" value="解答" onclick="nazo77();">
+</p>
+<h1>練習問題7-8</h1>
+  <p>
+　<input type="text" id="answer78">
+  <input type="button" value="解答" onclick="nazo();">
+  </p>
+<h1>練習問題7-9</h1>
+  答:<input type="text" id="answer79">
+  <input type="button" value="解答" onclick="nazo79();">
+<h1>練習問題7-10</h1> 
+  <p>
+    身長（cm）：
+    <input type="number" id="height2">
+  </p>
+
+  <p>
+    体重（kg）：
+    <input type="number" id="weight2">
+  </p>
+
+  <button onclick="calcBMI()">BMIを計算</button>
+
+  <p id="result2"></p>
+  <script>
+    function calcBMI() {
+      const heightInput = document.getElementById("height2").value;
+      const weightInput = document.getElementById("weight2").value;
+      const result = document.getElementById("result2");
+
+      if (heightInput === "" || weightInput === "") {
+        result.textContent = "身長と体重を入力してください。";
+        return;
+      }
+
+      const heightMeters = Number(heightInput) / 100;
+      const weightKg = Number(weightInput);
+
+      if (heightMeters <= 0 || weightKg <= 0) {
+        result.textContent = "正しい数値を入力してください。";
+        return;
+      }
+
+      const bmi = weightKg / (heightMeters * heightMeters);
+
+      let message;
+      if (bmi < 18.5) {
+        message = "低体重";
+      } else if (bmi < 25) {
+        message = "普通体重";
+      } else {
+        message = "肥満";
+      }
+
+      result.textContent =
+        `BMIは ${bmi.toFixed(2)} です（判定：${message}）`;
+    }
+  </script>
+ <h1>練習問題7-11</h1>
+ <p>西暦年を入力してください:</p>
+ <input type="number" id="yearInput" placeholder="例: 2024">
+ <button onclick="checkLeapYear()">判定</button>
+ <p id="resultArea"></p> 
+ <script> 
+  function checkLeapYear() { 
+ // 入力された値を取得 
+ const year = document.getElementById("yearInput").value; 
+ const resultArea = document.getElementById("resultArea"); 
+ if (year === "" || isNaN(year)) 
+ { resultArea.textContent = "有効な西暦年を入力してください。"; return; }
+  // 閏年判定の論理式 
+  // (4で割り切れる かつ 100で割り切れない) または (400で割り切れる) 
+  if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) { resultArea.textContent = year + "年は**閏年**です。"; } 
+  else { resultArea.textContent = year + "年は**平年**です。"; } }
+ </script>
+</body>
+</html>
