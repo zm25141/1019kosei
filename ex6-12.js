@@ -3,5 +3,5 @@ function imgchange1(){
 }
 
 function imgReset1(){
-  document.getElementById('logo').src = './image/nigirizushi_moriawase.png';
+  document.getElementById('logo').src = './images/nigirizushi_moriawase.png';
 }
